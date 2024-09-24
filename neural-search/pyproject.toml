@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "neural-search"
+version = "0.1.0"
+description = ""
+authors = ["Charitarth Chugh <charitarth.chughg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+sentence-transformers = "^3.1.1"
+cherche = {extras = ["cpu"], version = "^2.2.1"}
+pandas = "^2.2.3"
+numpy = "<2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
