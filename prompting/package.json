@@ -1,0 +1,16 @@
+{
+  "name": "ai-club-prompting-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slidev presentation on modern prompting and AI agent management",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.1.2",
+    "@slidev/theme-seriph": "^0.25.0",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
